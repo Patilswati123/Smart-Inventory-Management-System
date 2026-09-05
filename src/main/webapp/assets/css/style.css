@@ -1,0 +1,33 @@
+/* =========================================================
+   Smart Inventory Management System - Custom Stylesheet
+   Use this file for project-specific custom styling on top of Bootstrap.
+   ========================================================= */
+
+/* Application General Styles */
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/* Card Enhancements */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Navigation Brand */
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
